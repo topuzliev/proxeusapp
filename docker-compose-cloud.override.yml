@@ -16,6 +16,9 @@ networks:
     name: reverse-proxy
     driver: bridge
 
+
+
+
 volumes:
   # Add volume for nginx-proxy and letsencrypt
   nginx-share:
